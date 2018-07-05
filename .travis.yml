@@ -9,7 +9,7 @@ branches:
 # Set the language
 language: bash
 
-os: osx
+os: linux
 
 env:
   global:
@@ -28,9 +28,8 @@ before_install:
   # - sudo apt-get install texlive-science
   # # Install fonts
   # - sudo apt-get install lmodern
-  - brew install pandoc
-  - brew install pandoc-citeproc
-  - brew cask install mactex
+  - apt install pandoc
+  - apt install pandoc-citeproc
   - tlmgr info fontspec
 
 # Attempt to create a PDF
