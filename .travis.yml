@@ -28,9 +28,9 @@ before_install:
   # - sudo apt-get install texlive-science
   # # Install fonts
   # - sudo apt-get install lmodern
-  - apt install pandoc
-  - apt install pandoc-citeproc
-  - tlmgr info fontspec
+  - sudo apt-get install pandoc
+  - sudo apt-get install pandoc-citeproc
+  - sudo tlmgr info fontspec
 
 # Attempt to create a PDF
 script:
