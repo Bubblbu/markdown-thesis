@@ -13,8 +13,8 @@ os: linux
 
 env:
   global:
-    - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
-    - PATH=/Library/TeX/texbin:$PATH
+      # - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
+      # - PATH=/Library/TeX/texbin:$PATH
 
 
 before_install:
