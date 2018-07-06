@@ -30,7 +30,8 @@ before_install:
   # - sudo apt-get install lmodern
   - sudo apt-get install pandoc
   - sudo apt-get install pandoc-citeproc
-  - sudo tlmgr info fontspec
+  - tlmgr init-usertree
+  - tlmgr info fontspec
 
 # Attempt to create a PDF
 script:
